@@ -10,6 +10,8 @@ A modular system for building digital effects for guitar, vocals and synthesiser
 * Extension boards [WIP] for Stereo out, MIDI and UI.
 * Basic software environment provided [WIP].
 * Reference design for digital control of analog circuits [WIP]. To show how to integrate analog effects that are controlled digitally.
+* Software controlled "soft" switching. Dry and wet signals can be activated by the MCU.
+* Completely analog dry signal path.
 
 # Why?
 
