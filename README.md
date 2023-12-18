@@ -64,7 +64,7 @@ We're currently in Stage 1 development - building a simple proof of concept that
 
 * Bad drill size on the codec header on the mainboard needs addressing.
 
-* Some clipping occuring - we're unsure if this is on the way in or the way out. The signal conditioning and overload protection could use a review.
+* Some clipping occuring when using guitars - we're unsure if this is on the way in or the way out. The signal conditioning and overload protection could use a review.
 
 # Manufacture
 
