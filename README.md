@@ -21,7 +21,7 @@ Our proposed system is largely inspired by the success of the Spin FV-1. If you'
 
 However, the big drawback is a lack of portability - the fact that it's a dedicated piece of silicon means that it is hard to source and that makes mid and large scale manufacturing difficult. What we propose is to develop an open platform with a focus on visual programming that is, to a large extent, silicon agnostic. That is to say, that the platform would eventually either support multiple MCUs, or that porting to a new silicon is something that would be reasonably straightforward, should the chosen chip become scarce or no longer be supported. We propose to achieve this by using a simple virtualised environment that abstracts away the architecture. 
 
-This has some strengths; 
+This has some strengths
 * Portability - the ability to maintain a consistent feature set across a range of architectures
 * Clean development experience - the ability to offer a very clean development experience specific to audio effects, with no terrible IDEs and toolchains that often dog embedded development.
 
