@@ -52,7 +52,9 @@ We're currently in Stage 1 development - building a simple proof of concept that
 
 * The system is considerably more "bulky" than dedicated silicon - it's unclear whether we could fit the system into a small format pedal enclosure whilst still maintaining a certain degree of modularity.
 
-* Off-chip memory performance is quite poor (SPI SRAMs). When using DMA read/write appears unreliable -  lowering the speed of the SPI clock helps, this points to a potential hardware issue.
+* Off-chip memory performance is quite poor (SPI SRAMs). When using DMA read/write appears unreliable -  lowering the speed of the SPI clock helps, this points to a potential hardware issue. We've yet to experiment with the PSRAMs on the Teensy board.
+
+* We need to investigate a solution for flash memory for storage. This is for storage of user presets, but also for Stage 3 development where non-volatile storage is needed to store compiled effects programs. The Teensy boards provide a space for external flash for prototype purposes.
 
 * In order to achieve high fidelity, the codec needs to be the I2S master. However, this causes clocking problems with the Teensy. Because of this, the Teensy's built in ADC functionality (which would ordinarily be used for reading potentiometers etc.) cannot be used whilst the codec is also installed. We're attempting to circumvent this for the prototype by including some 8bit SPI ADC chips to provide the user interface.
 
